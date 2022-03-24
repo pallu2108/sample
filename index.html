@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 50px;
+            width: 70%;
+            background-color: rgb(21, 32, 46);
+            display: flex;
+            margin:auto;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            flex-basis: 80%;
+            justify-content: space-between;
+            font-family: sans-serif;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .container > div  {
+            color: white;
+            text-align: center;
+            display: flex;
+            padding-left: 20px;
+        }
+        p {
+            color: white;
+        }
+        .container >div > div {
+            /* flex-grow: 1; */
+             padding-left: 20px;
+             padding-right: 30px;
+             justify-content:space-between
+             color: white;
+             display: flex;
+             flex-wrap: wrap;
+             flex-grow: 1;
+             text-align: center;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>MEGAWIDTH</h3>
+        </div>
+        <div>
+        <div><p> Home     </p></div>
+        <div> <p>About   </p></div>
+        <div> <p> Blog </p></div>
+        <div><p>page</p></div>
+    </div>
+    </div>
+</body>
+</html>
